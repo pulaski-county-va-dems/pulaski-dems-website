@@ -395,6 +395,23 @@
 			padding-left: 0.5em;
 		}
 
+	/* TGoff Added */
+	section.style4 ul li:before {
+	  content: "\f105"; /* FontAwesome Unicode */
+	  font-family: FontAwesome;
+	  display: inline-block;
+	  margin-left: -1.3em; /* same as padding-left set on li */
+	  width: 1.3em; /* same as padding-left set on li */
+	}
+	section.style4 ul li ul li:before {
+	  content: "\f101"; /* FontAwesome Unicode */
+	  font-family: FontAwesome;
+	  display: inline-block;
+	  margin-left: 1em; 
+	  width: 1.3em; /* same as padding-left set on li */
+	}
+	/* End TGoff Added */
+
 	ul.icons {
 		cursor: default;
 	}
