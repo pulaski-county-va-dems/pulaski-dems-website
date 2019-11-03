@@ -1,5 +1,5 @@
-s3_id: <%= ENV['S3_ID'] %>
-s3_secret: <%= ENV['S3_SECRET'] %>
+#s3_id: <%= ENV['S3_ID'] %>
+#s3_secret: <%= ENV['S3_SECRET'] %>
 s3_bucket: pulaski-dems
 cloudfront_distribution_id: E3BI0P9H3RSCVF
 
